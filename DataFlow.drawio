@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Safari/605.1.15" version="27.0.1">
   <diagram name="Seite-1" id="RiWL7UGFOMK9hR6FUCRO">
-    <mxGraphModel dx="946" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="930" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -188,6 +188,9 @@
         </mxCell>
         <mxCell id="UXKPTOqq_0qHGmjlRGbl-61" value="Data Flow Computation Process" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="210" y="10" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXKPTOqq_0qHGmjlRGbl-62" value="recurrent execution&lt;div&gt;after every EIC Region&lt;/div&gt;&lt;div&gt;has the day ahead prices&lt;/div&gt;&lt;div&gt;the process will pause until&lt;/div&gt;&lt;div&gt;on the next day the clearing&lt;/div&gt;&lt;div&gt;will be started at 12:00 CEST.&lt;/div&gt;&lt;div&gt;Then the process starts to retrieve&lt;/div&gt;&lt;div&gt;prices for the next Day&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="175" y="1744" width="210" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
