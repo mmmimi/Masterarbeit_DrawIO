@@ -105,6 +105,90 @@
         <mxCell id="UXKPTOqq_0qHGmjlRGbl-31" value="EV&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.signs.transportation.car_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="20" y="60" width="99" height="88" as="geometry" />
         </mxCell>
+        <mxCell id="UXKPTOqq_0qHGmjlRGbl-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXKPTOqq_0qHGmjlRGbl-36" target="UXKPTOqq_0qHGmjlRGbl-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="145" y="1230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXKPTOqq_0qHGmjlRGbl-43" value="1: Request all EIC Regions" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UXKPTOqq_0qHGmjlRGbl-42">
+          <mxGeometry x="-0.0931" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXKPTOqq_0qHGmjlRGbl-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.9;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXKPTOqq_0qHGmjlRGbl-36" target="UXKPTOqq_0qHGmjlRGbl-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXKPTOqq_0qHGmjlRGbl-55" value="3: check if prices already exists in DB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UXKPTOqq_0qHGmjlRGbl-54">
+          <mxGeometry x="0.001" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXKPTOqq_0qHGmjlRGbl-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.995;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXKPTOqq_0qHGmjlRGbl-36" target="UXKPTOqq_0qHGmjlRGbl-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXKPTOqq_0qHGmjlRGbl-57" value="return result if prices exist&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UXKPTOqq_0qHGmjlRGbl-56">
+          <mxGeometry x="0.2728" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXKPTOqq_0qHGmjlRGbl-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.995;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="UXKPTOqq_0qHGmjlRGbl-36" target="UXKPTOqq_0qHGmjlRGbl-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="1390" />
+              <mxPoint x="360" y="1390" />
+              <mxPoint x="360" y="1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXKPTOqq_0qHGmjlRGbl-59" value="store prices if not existing in DB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UXKPTOqq_0qHGmjlRGbl-58">
+          <mxGeometry x="0.0813" y="-2" relative="1" as="geometry">
+            <mxPoint x="51" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXKPTOqq_0qHGmjlRGbl-36" value="Background process" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=cronjob" vertex="1" parent="1">
+          <mxGeometry x="120" y="1340" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="UXKPTOqq_0qHGmjlRGbl-37" value="EIC Region Storage" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="690" y="1210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UXKPTOqq_0qHGmjlRGbl-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.28;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UXKPTOqq_0qHGmjlRGbl-38" target="UXKPTOqq_0qHGmjlRGbl-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXKPTOqq_0qHGmjlRGbl-49" value="retrieve available prices in XML" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UXKPTOqq_0qHGmjlRGbl-48">
+          <mxGeometry x="-0.1144" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXKPTOqq_0qHGmjlRGbl-38" value="Entso-E&amp;nbsp;&lt;div&gt;Transparency Platform&lt;/div&gt;&lt;div&gt;Restful API&lt;/div&gt;" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" vertex="1" parent="1">
+          <mxGeometry x="690" y="1600" width="80" height="76.8" as="geometry" />
+        </mxCell>
+        <mxCell id="UXKPTOqq_0qHGmjlRGbl-40" value="Spot price Storage" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="690" y="1380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UXKPTOqq_0qHGmjlRGbl-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.9;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UXKPTOqq_0qHGmjlRGbl-37" target="UXKPTOqq_0qHGmjlRGbl-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXKPTOqq_0qHGmjlRGbl-45" value="retrieve EIC Regions" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UXKPTOqq_0qHGmjlRGbl-44">
+          <mxGeometry x="-0.0074" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXKPTOqq_0qHGmjlRGbl-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.72;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UXKPTOqq_0qHGmjlRGbl-36" target="UXKPTOqq_0qHGmjlRGbl-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UXKPTOqq_0qHGmjlRGbl-47" value="2: Request for each EIC Region the available day ahead prices" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UXKPTOqq_0qHGmjlRGbl-46">
+          <mxGeometry x="0.0836" y="1" relative="1" as="geometry">
+            <mxPoint x="54" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UXKPTOqq_0qHGmjlRGbl-60" value="Data Flow background process" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1169" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UXKPTOqq_0qHGmjlRGbl-61" value="Data Flow Computation Process" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="210" y="10" width="390" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
