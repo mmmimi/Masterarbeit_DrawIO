@@ -42,7 +42,7 @@
           <mxGeometry x="80" y="230" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zO_qhvo5qTCz1RgeJ2uV-5" value="Keba Portal" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="450" y="80" width="80" height="30" as="geometry" />
+          <mxGeometry x="400" y="50" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zO_qhvo5qTCz1RgeJ2uV-6" value="create/update tariff pricing informations" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="110" width="120" height="80" as="geometry" />
